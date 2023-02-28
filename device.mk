@@ -9,6 +9,9 @@ PRODUCT_PACKAGES += \
     SettingsProvider-PDX224-Overlay \
     SystemUIRes-PDX224-Overlay
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
