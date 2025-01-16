@@ -19,6 +19,12 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_holi/audio_policy_volumes.xml
 
+# Overlay
+PRODUCT_PACKAGES += \
+    FrameworkRes-PDX225-Overlay \
+    SettingsProvider-PDX225-Overlay \
+    SystemUIRes-PDX225-Overlay
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
