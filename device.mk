@@ -24,6 +24,9 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
 
 # Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_PACKAGES += \
     FrameworkRes-PDX225-Overlay \
     SettingsProvider-PDX225-Overlay \
