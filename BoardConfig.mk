@@ -8,5 +8,8 @@ include device/sony/sm6375-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx225
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Include the proprietary files BoardConfig.
 include vendor/sony/pdx225/BoardConfigVendor.mk
