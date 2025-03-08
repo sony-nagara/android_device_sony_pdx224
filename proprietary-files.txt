@@ -34,7 +34,7 @@ vendor/firmware/cs40l25a_cal.bin
 vendor/firmware/cs40l25a_cal.wmfw
 
 # Camera
-vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
+vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service;DISABLE_CHECKELF
 vendor/camera/CAMINO_FW_DATA_AF_0x0104.dat
 vendor/camera/CAMINO_FW_DATA_OIS_0x0101.dat
 vendor/camera/CASTORE_FW_DATA_1_0x16813030.dat
