@@ -27,6 +27,11 @@ BOARD_KERNEL_CMDLINE += buildproduct=pdx223
 
 TARGET_KERNEL_CONFIG += vendor/sony/pdx223.config
 
+# Add Sailfish kernel config if SAILFISH_BUILD is defined in environment
+ifneq ($(strip $(shell echo $$SAILFISH_BUILD)),)
+TARGET_KERNEL_CONFIG += vendor/sony/sailfish.config
+endif
+
 # Device-specific partition sizes
 # data from AOSP config
 # Reserve space for data encryption (234859245568-16384)
