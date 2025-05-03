@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE_COMMON=pdx223
+export DEVICE_COMMON=pdx224
 export DEVICE_COMMON=sm8450-common
 export VENDOR=sony
 

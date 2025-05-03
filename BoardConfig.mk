@@ -17,15 +17,15 @@
 # Inherit from sony sm8450-common
 -include device/sony/sm8450-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/pdx223
+DEVICE_PATH := device/sony/pdx224
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-BOARD_KERNEL_CMDLINE += buildproduct=pdx223
+BOARD_KERNEL_CMDLINE += buildproduct=pdx224
 
-TARGET_KERNEL_CONFIG += vendor/sony/pdx223.config
+TARGET_KERNEL_CONFIG += vendor/sony/pdx224.config
 
 # Add Sailfish kernel config if SAILFISH_BUILD is defined in environment
 ifneq ($(strip $(shell echo $$SAILFISH_BUILD)),)
@@ -41,4 +41,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 234859229184
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # inherit from the proprietary version
--include vendor/sony/pdx223/BoardConfigVendor.mk
+-include vendor/sony/pdx224/BoardConfigVendor.mk

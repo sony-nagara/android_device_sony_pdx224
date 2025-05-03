@@ -39,9 +39,9 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SonyPDX223FrameworksRes \
-    SonyPDX223NfcNciRes \
-    SonyPDX223SystemUIRes
+    SonyPDX224FrameworksRes \
+    SonyPDX224NfcNciRes \
+    SonyPDX224SystemUIRes
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -55,4 +55,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx223/pdx223-vendor.mk)
+$(call inherit-product, vendor/sony/pdx224/pdx224-vendor.mk)

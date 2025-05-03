@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SonyPDX223NfcNciRes",
+    name: "SonyPDX224NfcNciRes",
     vendor: true,
 }

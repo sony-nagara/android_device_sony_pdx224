@@ -1,1 +1,1 @@
-require board=taro|pdx223|XQ-CT54
+require board=taro|pdx224|XQ-CT54

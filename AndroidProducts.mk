@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pdx223.mk
+    $(LOCAL_DIR)/lineage_pdx224.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pdx223-user \
-    lineage_pdx223-userdebug \
-    lineage_pdx223-eng
+    lineage_pdx224-user \
+    lineage_pdx224-userdebug \
+    lineage_pdx224-eng

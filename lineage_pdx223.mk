@@ -26,8 +26,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
 
-PRODUCT_NAME := lineage_pdx223
-PRODUCT_DEVICE := pdx223
+PRODUCT_NAME := lineage_pdx224
+PRODUCT_DEVICE := pdx224
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia 1 IV
