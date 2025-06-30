@@ -1,4 +1,4 @@
-# Stock package version: XQ-CQ54_Customized EU-UK_64.2.A.2.244
+# Stock package version: XQ-CQ54_Orange MCV FR-ES-PL-SK-RO_64.2.A.2.244
 
 # Audio FX Modules
 vendor/etc/zoom_noise_reduction/znr_Front_44k.tbl
