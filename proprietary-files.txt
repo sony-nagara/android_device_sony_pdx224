@@ -82,7 +82,6 @@ vendor/camera/flash.dat
 vendor/camera/ois_correction_coefficient_imx557.dat
 vendor/camera/ois_correction_coefficient_imx650.dat
 vendor/camera/optical_axis.dat
-vendor/camera/SEM12BC6
 vendor/camera/SEM12BC6/color_ctrl.dat
 vendor/camera/SEM12BC6/dataflow.dat
 vendor/camera/SEM12BC6/depth_measurement.dat
@@ -117,7 +116,6 @@ vendor/camera/SEM12BC6/prc_image_conv.dat
 vendor/camera/SEM12BC6/raw_conv_parisbrest.dat
 vendor/camera/SEM12BC6/raw_proc_platform.dat
 vendor/camera/SEM12BC6/scene_detector.dat
-vendor/camera/SEM12BC7
 vendor/camera/SEM12BC7/color_ctrl.dat
 vendor/camera/SEM12BC7/dataflow.dat
 vendor/camera/SEM12BC7/depth_measurement.dat
@@ -152,7 +150,6 @@ vendor/camera/SEM12BC7/prc_image_conv.dat
 vendor/camera/SEM12BC7/raw_conv_parisbrest.dat
 vendor/camera/SEM12BC7/raw_proc_platform.dat
 vendor/camera/SEM12BC7/scene_detector.dat
-vendor/camera/SEM12BC8
 vendor/camera/SEM12BC8/color_ctrl.dat
 vendor/camera/SEM12BC8/dataflow.dat
 vendor/camera/SEM12BC8/depth_measurement.dat
@@ -190,7 +187,6 @@ vendor/camera/SEM12BC8/scene_detector.dat
 vendor/camera/snapshot.dat
 vendor/camera/SODA_HMN_BN0010-0001
 vendor/camera/streaming.dat
-vendor/camera/SUN12BS0
 vendor/camera/SUN12BS0/color_ctrl.dat
 vendor/camera/SUN12BS0/dataflow.dat
 vendor/camera/SUN12BS0/depth_measurement.dat
@@ -225,7 +221,6 @@ vendor/camera/SUN12BS0/prc_image_conv.dat
 vendor/camera/SUN12BS0/raw_conv_parisbrest.dat
 vendor/camera/SUN12BS0/raw_proc_platform.dat
 vendor/camera/SUN12BS0/scene_detector.dat
-vendor/camera/SUNHQCN1
 vendor/camera/SUNHQCN1/dataflow.dat
 vendor/camera/SUNHQCN1/depth_comp.dat
 vendor/camera/supported.dat
