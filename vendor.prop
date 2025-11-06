@@ -1,6 +1,2 @@
 # Bluetooth
 bluetooth.device.default_name=Xperia 5 IV
-
-# Fingerprint
-persist.vendor.fingerprint.type=side
-persist.vendor.fingerprint.sensor_location=1080|1150|240|local:131
