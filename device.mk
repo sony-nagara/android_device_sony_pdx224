@@ -3,6 +3,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# AAPT
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+
 # Overlay
 PRODUCT_PACKAGES += \
     FrameworkRes-PDX224-Overlay \
